@@ -6,7 +6,7 @@ readme = "README.md"
 authors = [
     { name = "yfredrix", email = "skier@live.nl" }
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
     "loguru>=0.7.3",
     "paho-mqtt>=2.1.0",
