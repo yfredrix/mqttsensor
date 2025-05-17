@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-05-17)
+
+### Bug Fixes
+
+- Release job in workflow: consolidate Python version setup and rename publish step
+  ([`c9c57ac`](https://github.com/yfredrix/mqttsensor/commit/c9c57acbb8cc01c5891d9cfc4576dce7633edda2))
+
+
 ## v0.1.0 (2025-05-17)
 
 ### Break
