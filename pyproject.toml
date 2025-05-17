@@ -1,7 +1,7 @@
 [project]
 name = "mqttsensor"
 version = "0.1.0"
-description = "Add your description here"
+description = "A standard library for MQTT sensors within a home -> Given the topic and payload, it will create a sensor object. The payload will be inot the format expected by the [mqtt-influxdb](https://github.com/yfredrix/mqtt-influxdb) container."
 readme = "README.md"
 authors = [
     { name = "yfredrix", email = "skier@live.nl" }
