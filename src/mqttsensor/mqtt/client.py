@@ -52,9 +52,7 @@ class MqttClient(mqtt.Client):
 
     def start(self):
         self.loop_start()
-        self.connect(
-            self.broker, self.port, clean_start=mqtt.MQTT_CLEAN_START_FIRST_ONLY
-        )
+        self.connect(self.broker, self.port, clean_start=mqtt.MQTT_CLEAN_START_FIRST_ONLY)
 
     def stop(self):
         self.loop_stop()
