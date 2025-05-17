@@ -3,6 +3,11 @@
 
 ## v0.1.0 (2025-05-17)
 
+### Break
+
+- Update project description for clarity and detail
+  ([`9e29de5`](https://github.com/yfredrix/mqttsensor/commit/9e29de5288d6d85c84389b392b1b05e3340f33ee))
+
 ### Bug Fixes
 
 - Removed python version to not be difficult
