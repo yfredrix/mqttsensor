@@ -1,5 +1,8 @@
 from mqttsensor.config import Config
 from mqttsensor.mqtt.client import MqttClient
+from loguru import logger
+
+from mqttsensor import __version__ as version
 
 
 def init_client(config_file: str = "config.toml") -> tuple[Config, MqttClient]:
@@ -12,9 +15,5 @@ def init_client(config_file: str = "config.toml") -> tuple[Config, MqttClient]:
 
 
 def main():
-    """
-    Main entry point for the MQTT sensor application.
-    """
-    config, mqtt_client = init_client()
-    mqtt_client.start()
-    mqtt_client.stop()
+    logger.info("Downloaded module correctly")
+    logger.info(f"Version: {version}")
