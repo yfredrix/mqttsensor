@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.1 (2025-05-18)
+
+### Bug Fixes
+
+- Correct argument type for MqttClient initialization
+  ([`3e58d43`](https://github.com/yfredrix/mqttsensor/commit/3e58d4358d8c153096d920905cca59bb332742de))
+
+
 ## v0.2.0 (2025-05-18)
 
 
