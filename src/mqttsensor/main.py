@@ -10,7 +10,7 @@ def init_client(config_file: str = "config.toml") -> tuple[Config, MqttClient]:
     Main function to initialize the configuration and MQTT client.
     """
     config = Config(config_file)
-    mqtt_client = MqttClient(**config.get(["mqtt"]))
+    mqtt_client = MqttClient(**config.get("mqtt"))
     return config, mqtt_client
 
 
